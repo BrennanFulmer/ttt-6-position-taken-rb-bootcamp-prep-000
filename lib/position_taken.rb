@@ -6,8 +6,8 @@ def position_taken?(board, index)
   when "X"
     true
   when "O"
-    return true
+    true
   else
-    return false
+    false
   end
 end
