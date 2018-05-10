@@ -5,7 +5,7 @@ def position_taken?(board, index)
   case place
   when "X"
     return true
-  when "Y"
+  when "O"
     return true
   else
     return false
