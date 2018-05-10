@@ -1,7 +1,8 @@
 # code your #position_taken? method here!
 
 def position_taken?(board, index)
-  case board[index].strip
+  place = board[index].strip
+  case 
   when 
   else
   end
