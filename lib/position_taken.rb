@@ -2,7 +2,7 @@
 
 def position_taken?(board, index)
   place = board[index].strip
-  case 
+  case place
   when 
   else
   end
