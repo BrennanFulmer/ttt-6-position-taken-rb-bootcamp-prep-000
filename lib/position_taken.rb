@@ -4,7 +4,7 @@ def position_taken?(board, index)
   # place = board[index].to_s.strip
   case board[index].to_s.strip
   when "X"
-    return true
+    true
   when "O"
     return true
   else
